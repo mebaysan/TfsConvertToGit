@@ -6,18 +6,20 @@
 
 4-) cd gitTfYolu -> cmd'den gittf klasörüne git
 
-5-) git-tf clone https://tfsAdresi.com $/ProjeAdi projeninConvertEdileceğiDizin --deep
+5-) tfs hesabınızda kullanıcı adınıza tıkla -> security -> alternate credentials -> kullanıcı adı ve şifre oluşturun (tfs serverdan repoyu çekerken gerekli)
+
+6-) git-tf clone https://tfsAdresi.com $/ProjeAdi projeninConvertEdileceğiDizin --deep
 	https://dev.azure.com/mebaysan $/TfsGit C:\Users\meb\Desktop\ConvertEdilenDosya
 
-6-) gitlab veya github üzerinde bir repo oluştur
+7-) gitlab veya github üzerinde bir repo oluştur
 
-7-) cmd ile convert edilen dosyaya git (ConvertEdilenDosya)
+8-) cmd ile convert edilen dosyaya git (ConvertEdilenDosya)
 
-8-) git remote add origin https://gitlab.com/kullaniciAdin/repoAdi.git  -> github veya gitlab üzerinde new repo oluştur ve 
+9-) git remote add origin https://gitlab.com/kullaniciAdin/repoAdi.git  -> github veya gitlab üzerinde new repo oluştur ve 
 										altta verilen linki cmd de gir
 
 (GitHub veya GitLab üzerine yeni repo oluşturunca sana ilgili repo için verilen linkler/komutlar)
-9-) git push -u origin --all
+10-) git push -u origin --all
     git push -u origin --tags
 
 
