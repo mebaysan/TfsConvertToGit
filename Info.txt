@@ -1,0 +1,27 @@
+1-) gittf adlı toolu indir (https://archive.codeplex.com/?p=gittf)
+
+2-) bilgisayarına java (jre) indir
+
+3-) gittf'i dosyaya çıkart
+
+4-) cd gitTfYolu -> cmd'den gittf klasörüne git
+
+5-) git-tf clone https://tfsAdresi.com $/ProjeAdi projeninConvertEdileceğiDizin --deep
+	https://dev.azure.com/mebaysan $/TfsGit C:\Users\meb\Desktop\ConvertEdilenDosya
+
+6-) gitlab veya github üzerinde bir repo oluştur
+
+7-) cmd ile convert edilen dosyaya git (ConvertEdilenDosya)
+
+8-) git remote add origin https://gitlab.com/kullaniciAdin/repoAdi.git  -> github veya gitlab üzerinde new repo oluştur ve 
+										altta verilen linki cmd de gir
+
+(GitHub veya GitLab üzerine yeni repo oluşturunca sana ilgili repo için verilen linkler/komutlar)
+9-) git push -u origin --all
+    git push -u origin --tags
+
+
+
+
+
+			Good Luck!
